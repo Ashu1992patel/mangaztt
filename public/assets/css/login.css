@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Rationale');
+
+@charset "utf-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    margin: o auto;
+    background-image: url(images/bg_body.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.wraper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.nopadding {
+    padding: 0px;
+}
+
+.login-form {
+    width: 400px;
+    height: auto;
+    margin-left: -200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    box-shadow: 0 0 8px #666666;
+}
+
+.login-inner {
+    padding: 40px 20px 20px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+}
+
+.logindiv {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+    border-bottom: solid 2px #666;
+}
+
+.txtlogin {
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 35px;
+    border: none;
+    font-size: 16px;
+}
+
+.login-icon {
+    position: absolute;
+    z-index: 5;
+    right: 10px;
+    top: 8px;
+    width: auto;
+    font-size: 20px !important;
+    color: #a5a5a5;
+}
+
+.login-user-icon {
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+    display: inline-block;
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 0px;
+    margin-left: -90px;
+    margin-top: -125px;
+    border: solid 5px #187bd0;
+    background: #85bce8;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px !important;
+
+}
+
+.login-user-icon a {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.login-lnr_icon {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.login-heading {
+    color: #fff;
+    font-family: 'Rationale', sans-serif;
+    font-size: 32px;
+}
+
+.btn_login {
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    font-family: 'Rationale', sans-serif;
+    font-size: 19px;
+}
+
+.form-footer {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .wraper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .wraper {
+        width: 738px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wraper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .wraper {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

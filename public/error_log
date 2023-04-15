@@ -1,0 +1,36 @@
+[12-Jul-2022 15:27:54 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php:838
+Stack trace:
+#0 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home2/mangaztt...', 838)
+#1 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(807): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array)
+#4 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('App\\Exceptions\\...', Array)
+#5 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\Foundation\Application->make('App\\Exceptions\\...', Array)
+#6 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(776): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#7 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build(Object(Closure))
+#8 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#9 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 838
+[12-Jul-2022 15:39:59 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php:838
+Stack trace:
+#0 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(838): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home2/mangaztt...', 838)
+#1 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(807): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array)
+#4 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('App\\Exceptions\\...', Array)
+#5 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\Foundation\Application->make('App\\Exceptions\\...', Array)
+#6 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(776): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#7 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build(Object(Closure))
+#8 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#9 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#10 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#11 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 {main}
+  thrown in /home2/mangaztt/public_html/src/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 838

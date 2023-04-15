@@ -1,0 +1,88 @@
+.glo_share_ul {
+    padding: 0px;
+    -webkit-transform: translate(90px, 0);
+    -moz-transform: translate(90px, 0);
+    -ms-transform: translate(90px, 0);
+    -o-transform: translate(90px, 0);
+    transform: translate(90px, 0);
+    margin: 0px;
+    z-index: 95;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    margin-top: -100px;
+}
+.glo_share_libox {
+    cursor: pointer;
+    display: block;
+    margin: 5px 0px;
+    background: rgba(255, 255, 255, 0.63);
+    width: 125px;
+    padding: 5px;
+    padding-left: 40px;
+    -webkit-border-radius: 30px 0px 0px 30px;
+    -moz-border-radius: 30px 0px 0px 30px;
+    border-radius: 30px 0px 0px 30px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    border: solid thin #e1e1e1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
+    position: relative;
+}
+
+.glo_share_libox:hover
+{
+    transform: translate(-70px, 0);
+    -o-transform: translate(-70px, 0);
+    -moz-transform: translate(-70px, 0);
+    -webkit-transform: translate(-70px, 0);
+}
+.glo_share_libox i {
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    line-height: 25px;
+    font-size: 14px;
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
+.glo_share_libox:hover .mdi
+{
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.facebook_clr {
+    background: linear-gradient(0deg,#6681b9 0%,#1a3d86 99%,#404a61 100%)!important;
+}
+.glo_share_libox p {
+    margin: 0px;
+    display: inline-block;
+}
+.twitter_clr {
+    background: linear-gradient(0deg,#9fd5ea 0%,#02b0f7 99%,#235c73 100%)!important;
+}
+.linkedin_clr {
+    background: linear-gradient(0deg,#17617f 0%,#2da7dc 99%,#4d95b3 100%)!important;
+}
+.google_clr {
+    background: linear-gradient(0deg,#d26c6f 0%,#d80e15 99%,#cc181e 100%)!important;
+}
+.whatsup_clr {
+    background: linear-gradient(0deg,#1f9a2d 0%,#54d463 99%,#50ca5e 100%)!important;
+}

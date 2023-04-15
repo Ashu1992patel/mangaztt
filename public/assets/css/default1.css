@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*{
+    box-sizing: border-box
+;
+    -moz-box-sizing: border-box
+;
+    -webkit-box-sizing: border-box
+;
+}
+body {font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    color:#000000;
+    background: linear-gradient(#d83333, #fefff0);
+    background: -webkit-linear-gradient(#f9caca, #fefff0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d83333, #fefff0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d83333, #fefff0); /* For Firefox 3.6 to 15 */
+    margin:0 auto;
+    padding: 10px;
+
+}
+
+.nopadding {
+    padding: 0px;
+}
+.loginbar
+{
+    width: 30%;
+    height:350px;
+    padding: 2%;
+    margin: 10% auto;
+    border-radius:5%;
+    background:#f7f5e6;
+    position: absolute;
+    top:50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -15%;
+    box-shadow: 0 0 12px #858585;
+}
+input {
+    /*border: 1px solid #ccc;*/
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+    /*-webkit-border-radius: 6px;*/
+    /*-moz-border-radius: 6px;*/
+    /*border-radius: 6px;*/
+    width: 100%;
+    margin: 10px;
+    background: transparent;
+    border-bottom: solid 1px #d9534f;
+}
+
+.errorAlert {
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.errorClass {
+    border: 1px solid red;
+}
+
+.errorText {
+    font-size: 11px;
+    font-weight: bold;
+    color: red;
+    margin-top: 4px;
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .loginbar {
+        width: 50%;
+        margin-left: -25%;
+        top: 10%;
+        margin-top: 0px;
+        height: 400px;
+    }
+}
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        .loginbar
+        {
+            width: 60%;
+            margin-left: -30%;
+            top: 10%;
+            margin-top: 0px;
+            height: 400px;
+        }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .loginbar {
+        width: 80%;
+        margin-left: -40%;
+        top: 10%;
+        margin-top: 0px;
+        height: 400px;
+    }
+}
+    @media only screen and (min-width:320px) and (max-width: 480px) {
+        .loginbar
+        {
+            width: 90%;
+            margin-left: -45%;
+            top:10%;
+            margin-top: 0px;
+        }
+
+}

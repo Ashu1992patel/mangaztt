@@ -1,0 +1,753 @@
+/*------------------------Media Ibadur----------*/
+@media (max-width: 1199px) and (min-width: 992px) {
+    .btn-pay img {
+        margin-top: 215% !important;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    .form-header-modarn .form-wizard-step p {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .main_story_box {
+        width: 750px !important;
+        margin-left: -375px !important;
+    }
+
+    .banner_age_txt + .banner_age_txt {
+        margin-right: 0;
+    }
+
+    .banner_block_search {
+        padding: 30px 2px 5px 2px;
+    }
+
+    .banner_block_search em {
+        left: 4px;
+    }
+
+    .staps_mainblock h2 {
+        font-size: 20px;
+    }
+
+    .staps_mainblock p {
+        font-size: 16px;
+    }
+
+    .form-wizard-tolal-steps-4 .form-wizard-step {
+        padding: 0 21px !important;
+        height: 105px;
+    }
+
+    .candidate_list_box {
+        padding-left: 215px;
+    }
+
+    .filtr__box {
+        width: 200px;
+    }
+
+    .promise_caption {
+        font-size: 16px;
+    }
+
+    .packages-section .LV-Basic h2, .LV-Super h2, .LV-Advance h2, .LV-Exclusive h2, .LV-Supreme h2 {
+        font-size: 16px !important;
+    }
+
+    .btn-LV-Basic, .btn-LV-Super, .btn-LV-Advance {
+        padding: 6px 20px !important;
+    }
+
+    .cl_list_box {
+        margin-top: 50px !important;
+    }
+
+    .cl_list_box .cand_search_filterbox {
+        position: relative;
+    }
+
+    .btn-pay {
+        max-width: 260px;
+        height: 80px;
+        display: flex;
+        margin: 30px auto;
+    }
+
+    .btn-pay img {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_story_box {
+        width: 100% !important;
+        left: 0 !important;
+        position: relative !important;
+        margin: 0 auto;
+        margin-left: 0 !important;
+
+    }
+
+    /*.login_with_baskit*/
+    /*{*/
+    /*width: 200px;*/
+    /*position: absolute;*/
+    /*background-color: #fff;*/
+    /*border-radius: 3px;*/
+    /*-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);*/
+    /*box-shadow: 0 6px 12px rgba(0,0,0,.175);*/
+    /*right: 0px;*/
+    /*top: 46px;*/
+    /*}*/
+    /*.login_with_baskit ul li*/
+    /*{*/
+    /*width: 100%;*/
+    /*border-right: none;*/
+    /*}*/
+    .staps_mainblock {
+        margin-bottom: 15px;
+    }
+
+    .aadhaar-holder-home {
+        z-index: 5 !important;
+    }
+
+    .main_banner {
+        background-position: 80%;
+
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .story_slider_text {
+        padding-left: 20px !important;
+    }
+
+    .main_story_box h3 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .main_footer_block {
+        padding-left: 47px;
+    }
+
+    .login_popup_box {
+        width: 80%;
+    }
+
+    .login_right_txt {
+        width: 100%;
+    }
+
+    .login_lefttxtbox {
+        display: none;
+    }
+
+    .form_allcontainer {
+        padding: 30px 15px;
+    }
+
+    .form-wizard-tolal-steps-4 .form-wizard-step {
+        padding: 0 5px !important;
+    }
+
+    .form-header-modarn .form-wizard-step p {
+        font-size: 10px !important;
+        margin-top: 5px;
+    }
+
+    .cl_list_box {
+        margin-top: 40px !important;
+    }
+
+    .cl_list_box > .cand_search_filterbox {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .cl_list_box {
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 479px) {
+    .banner_search_bg {
+        width: 100%;
+    }
+
+    .btn-blue {
+        font-size: 14px !important;
+        padding: 10px 15px !important;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+    }
+
+    .banner_block_search {
+        min-width: 140px;
+        float: left;
+    }
+
+    .banner_block_search em {
+        font-size: 16px;
+        top: 5px;
+    }
+
+    .main_footer_block {
+        padding-left: 0;
+    }
+
+    .product_btn_box .btn + .btn {
+        margin-left: 0 !important;
+    }
+
+    .product_btn_box .btn {
+        margin-top: 5px;
+    }
+
+    .product_btn_box {
+        text-align: center;
+    }
+
+    .product_btn_box .btn:last-child {
+        float: none !important;
+    }
+
+    .form-wizard-tolal-steps-4 .form-wizard-step {
+        width: 33.33% !important;
+    }
+
+    .filtr__box {
+        width: 100%;
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .candidate_list_box {
+        padding-left: 0;
+    }
+
+    .cl_list_box > .cand_search_filterbox {
+        width: 100%;
+    }
+
+    .heading_title {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .cand_btnbox {
+        width: auto;
+        top: 10px;
+        right: 8px;
+        max-width: 130px;
+    }
+    .view_fixed_nav {
+        padding-top: 10px;
+        background: #ffffff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    .main_footer_bottom {
+        padding: 0px 0px 5px 0px;
+    }
+
+    .address_block {
+        padding: 5px 0px 5px 25px;
+    }
+
+    .main_footer_block {
+        margin-top: 10px;
+    }
+
+    .main_footer_block a {
+        padding: 0px;
+    }
+
+    .footer_border {
+        margin: 0px;
+    }
+
+    .cand_info li:nth-child(odd) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .main_footer_block address
+    {
+        margin-bottom: 0px !important;
+    }
+    .upload_image_box
+    {
+        max-width: 450px;
+    }
+    .cand_info li:nth-child(even) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .cand_profile_box
+    {
+        margin-bottom: 10px !important;
+    }
+    .footer_content
+    {
+        padding: 0px;
+    }
+
+    .main_footer {
+        padding: 0px;
+    }
+
+    .footer_content {
+        padding: 0px;
+    }
+
+    .cand_btnbox a {
+        font-size: 11px !important;
+        width: 100% !important;
+    }
+    .card_basic_header h3 {
+        margin: 0px;
+    }
+    .regitration_member {
+        padding-top: 60px;
+    }
+
+    .main_heading h3 {
+        font-size: 16px;
+    }
+
+    .main_heading {
+        color: #666666;
+    }
+
+    .eassy_staps_block {
+        padding: 0px;
+    }
+
+    .plan_section {
+        padding: 0px;
+    }
+
+    .forgotpass_lb {
+        width: 350px;
+    }
+
+    .top_menubox {
+        padding-left: 125px;
+    }
+
+    .right_side_viewblk {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .main_logo {
+        top: 15px;
+        left: 5px;
+    }
+
+    #exTab3 .tab-content {
+        padding: 0px 5px;
+    }
+
+    .nav > li > a {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .cand_name {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .pics_counter_box {
+        font-size: 20px;
+        height: 20px;
+        margin-right: 0px;
+        line-height: 20px;
+    }
+
+    .overlay_trust {
+        padding: 3px 0px 0px 0px;
+    }
+
+    .meter_caption {
+        margin-top: 2px;
+    }
+
+    .banner_search_bg {
+        width: 100%;
+    }
+
+    .btn-blue {
+        font-size: 14px !important;
+        padding: 10px 15px !important;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+    }
+
+    .banner_block_search {
+        min-width: 140px;
+        float: left;
+    }
+
+    .banner_block_search em {
+        font-size: 16px;
+        top: 5px;
+    }
+
+    .main_footer_block {
+        padding-left: 0;
+    }
+
+    .product_btn_box .btn + .btn {
+        margin-left: 0 !important;
+    }
+
+    .product_btn_box .btn {
+        margin-top: 5px;
+    }
+
+    .product_btn_box {
+        text-align: center;
+    }
+
+    .product_btn_box .btn:last-child {
+        float: none !important;
+    }
+
+    .main_logo img {
+        max-width: 120px;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 373px) {
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .main_story_box {
+        width: 100% !important;
+        left: 0 !important;
+        position: relative !important;
+        margin: 0 auto;
+        margin-left: 0 !important;
+
+    }
+
+    /*.login_with_baskit {*/
+    /*width: 200px;*/
+    /*position: absolute;*/
+    /*background-color: #fff;*/
+    /*border-radius: 3px;*/
+    /*-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);*/
+    /*box-shadow: 0 6px 12px rgba(0, 0, 0, .175);*/
+    /*right: 0px;*/
+    /*top: 46px;*/
+    /*}*/
+    /*.login_with_baskit ul li {*/
+    /*width: 100%;*/
+    /*border-right: none;*/
+    /*}*/
+    .staps_mainblock {
+        margin-bottom: 15px;
+    }
+
+    .aadhaar-holder-home {
+        z-index: 5 !important;
+    }
+
+    .main_banner {
+        background-position: 50%;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .story_slider_text {
+        padding-left: 20px !important;
+    }
+
+    .main_story_box h3 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .main_footer_block {
+        padding-left: 47px;
+    }
+
+    .login_popup_box {
+        width: 80%;
+    }
+
+    .login_right_txt {
+        width: 100%;
+    }
+
+    .login_lefttxtbox {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cand_search_filterbox_show {
+        top: 0px !important;
+        height: 100% !important;
+    }
+
+    .top_menubox {
+        padding-left: 200px;
+    }
+
+    .main_story_box {
+        width: 750px !important;
+        margin-left: -375px !important;
+    }
+
+    .banner_age_txt + .banner_age_txt {
+        margin-right: 0;
+    }
+
+    .banner_block_search {
+        padding: 30px 2px 5px 2px;
+    }
+
+    .banner_block_search em {
+        left: 4px;
+    }
+
+    .staps_mainblock h2 {
+        font-size: 20px;
+    }
+
+    .staps_mainblock p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .mobile_show {
+        color: #696969;
+        margin: 10px 10px 0px 0px;
+        line-height: 22px;
+        display: block;
+        float: right;
+    }
+
+    .login_with_baskit ul {
+        position: absolute;
+        z-index: 100;
+        height: calc(100vh - 50px);
+        top: 10px;
+        background: #ffffff;
+        border-top: solid thin #e1e1e1;
+        overflow: auto;
+        max-height: calc(100vh - 50px);
+        line-height: 25px;
+        transition: .5s all;
+        right: -300px;
+        width: 250px;
+    }
+
+    .menu_ul_show {
+        right: 0px !important;
+    }
+
+    .login_with_baskit {
+        width: 100%;
+    }
+
+    .login_with_baskit ul li {
+        width: 100%;
+        border-bottom: solid thin #e1e1e1 !important;
+        border-right: none;
+        padding: 5px 10px;
+    }
+
+    .update_profile_row .col-sm-6 {
+        margin-top: 20px;
+    }
+
+    .update_profile_row {
+        margin-top: 0px !important;
+    }
+
+    .fixed_menu {
+        min-height: 50px;
+        z-index: 1000;
+    }
+
+    .view_fixed_nav .btn-group a {
+        padding: 5px;
+        text-align: center;
+        line-height: 16px;
+        display: inline-block;
+        margin: 0px 3px 5px 3px;
+        font-size: 12px;
+    }
+    .btn-group, .btn-group-vertical{
+        display: flex !important;
+    }
+    .view_fixed_nav .btn-group a i {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .top_menu {
+        top: 50px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 320px) {
+    .cand_profile_box {
+        position: relative;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .right_side_viewblk {
+        margin: 0px !important;
+    }
+
+    .width100 {
+        width: 100% !important;
+        flex: 100%;
+        margin: 0px !important;
+        padding: 0px;
+        max-width: 100%;
+        display: inline-block;
+    }
+
+    .cand_search_filterbox {
+        left: -100%;
+    }
+
+    .cand_search_filterbox_show {
+        position: fixed;
+        height: calc(100% - 50px);
+        left: 0px;
+        z-index: 100;
+        top: 50px;
+        overflow: auto;
+        max-height: 100%;
+    }
+
+    .cand_profile_imgbox {
+        margin-top: 0px;
+    }
+
+    .res_filter_show {
+        display: block;
+    }
+
+    .candidate_list_box {
+        padding-left: 0px;
+    }
+
+    .res_none {
+        display: none;
+    }
+
+    .cand_box {
+        padding: 150px 10px 10px 10px;
+    }
+
+    .cand_imgbox {
+        top: 10px;
+        width: 150px;
+        height: 140px;
+    }
+
+    .cand_btncontainner {
+        margin-bottom: 10px !important;
+    }
+
+    .cand_btncontainner a {
+        padding: 5px 10px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .all_pagescontainner {
+        padding-top: 60px;
+    }
+
+    .cand_btnbox {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .btn-pay img {
+        margin-top: 215% !important;
+    }
+
+    .cand_box {
+        padding: 15px 0px 15px 190px;
+    }
+
+    .cand_imgbox {
+        height: 140px;
+        width: 150px;
+    }
+
+    .cand_btnbox {
+        left: 15px;
+        top: initial;
+        bottom: 0px;
+    }
+
+    .cand_btncontainner {
+        margin-bottom: 10px !important;
+    }
+
+    .cand_btncontainner a {
+        padding: 5px 10px;
+    }
+
+    .popup_submitbtn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .popup_submitbtn_unfriend {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .popup_submitbtn_view {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1359px) {
+
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1600px) {
+
+}
+
+

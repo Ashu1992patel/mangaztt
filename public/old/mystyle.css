@@ -1,0 +1,256 @@
+.plan img{ width:150; height:70px; float:left;}
+.plan i { visibility: hidden;}
+
+.mtop {
+		border:1px solid;
+		width:100%;
+		height:130;
+	
+		background-image:url(images/header_bg.jpg);
+		background-repeat:repeat-x;
+	
+		margin-bottom:1px;
+		
+		}
+.mctext{
+		width:100%;
+		height:10px;
+		text-align:center;
+		color: #FAFF00;}		
+ #box1 {			
+				float:right;
+				width:75%;
+				height:100px;
+				margin-top:20px;
+				margin-right:1%;
+				border-top:2px solid white;
+				border-right:2px solid white;
+				border-left:2px solid white;
+				border-radius:10px;
+				background-image:url(images/headerbox_C.jpg);
+				background-repeat:repeat-x;
+				}
+.box2{ 			
+				float:right;
+				width:75%;
+				height:auto;
+				margin-right:1%;
+			
+				border-right:2px solid pink;
+				border-left:2px solid pink;
+				border-radius:10px;
+				
+				
+				}
+.box2 img{
+	width:100%;
+	}
+				
+ #box3 {			
+				float:right;
+				width:75%;
+				height:100px;
+				
+				margin-right:1%;
+			
+				border-right:2px solid white;
+				border-left:2px solid white;
+				border-radius:10px;
+				
+				background-image:url(images/headerbox_C.jpg);
+				background-repeat:repeat-x;
+				}
+#leftbox { 	background-color:white;
+			float:left;
+			margin-top:5px;
+			width:21%;
+			height:auto;
+			
+			}
+#leftbox .userlogin  { 	
+						padding:10px;
+						
+						width:95%;
+						height:auto;
+						border-radius:10px;
+						box-shadow: -3px 2px 5px #737373;  
+					}	
+#leftbox .userlogin   input{ 	
+						width:100%;
+						margin:10px;
+						height: auto;
+						border:1px solid purple;
+						border-radius:3px;
+						
+					}
+					
+#leftbox .userlogin   input[type=submit]{ 	
+						width:40%;
+						margin:10px;
+						border:1px solid purple;
+						border-radius:3px;
+						color: purple;
+					}
+
+#profilebox { 	box-shadow: -3px 2px 5px #737373; 
+			
+				padding-top: 40px;
+				float:left;
+				margin-top:10px;
+				margin-left:40px;
+				width:55%;
+				height:315px;
+				background-image: url(images/featuredprofile.jpg);
+				background-repeat: no-repeat;
+			
+			}					
+
+#leftbox  img { 	
+									
+						padding:10px;
+						text-align:center;
+						width:100%;
+						height:auto;
+					
+						border-radius:20px;
+					}					
+.mmenu {
+		float:left;
+	
+		width:100%;
+		height:50px;}
+
+		
+
+.footer {
+		color:white;
+		text-align:center;
+		float:left;
+		width:100%;
+		height:100px;
+		margin-top:10px;
+		background-image:url(images/down_bg.jpg);
+		background-repeat:repeat-x;
+
+		}		
+		
+p
+  {
+  color :#555659;
+  margin-top : 5px;
+  margin-left : 7px;
+  margin-right : 7px;
+  margin-bottom : 0px;
+  padding-bottom : 2px;
+  font-size : 12px;
+  font-family :Arial,Verdana; }
+
+TD
+{	
+	margin-left : 5px;
+	FONT-FAMILY: Tahoma,Arial,Verdana;
+	FONT-SIZE: 11px;
+	COLOR: #EDEDED; 
+}
+
+TR
+{	
+	FONT-FAMILY: Verdana,Arial; 
+	FONT-SIZE: 11px;
+	FONT-COLOR: #000000; 
+}
+
+form { margin-bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;}
+
+/*===============================================Style Used In Mangal Mandap==========================================================*/
+
+ .borderbottom
+{ border-bottom: #CD3B79 1px dashed; }
+
+.mainborder
+{
+  border: #FFFFFF 1px solid;
+ }
+
+.inborder
+{
+  border: #9A005A 1px solid;
+ }
+ 
+.sidelink
+{
+  border: #9A005A 1px solid; 
+ }
+ 
+ .phead {
+	font-size: 20px;
+	font-family: "Arial Rounded MT Bold";
+	color: #FAFF00;
+}
+ 
+.onebig1{font-family: Arial, Verdana,Helvetica, sans-serif; font-weight:bold; color:#EA2C68; font-size:14px;} 
+.onebig{font-family: Arial, Verdana,Helvetica, sans-serif; font-weight:bold; color:#ffffff; font-size:14px;}
+
+.twobig{font-family: Arial, Verdana,Helvetica, sans-serif; font-weight:bold; color:#EA2C68; font-size:14px;}
+
+.sitename {font-family: Arial, Verdana, Helvetica, sans-serif; color:#CD3B79; font-size:12px;}
+
+A.logoutfram:link{color:#A70359;text-decoration:none;cursor:"default";FONT-SIZE:11px;}
+A.logoutfram:visited{color:#A70359;text-decoration:none;cursor:"default";FONT-SIZE:11px;}
+A.logoutfram:hover{color:#FC822D;text-decoration:none;cursor:"hand";FONT-SIZE:11px;}
+
+A.mymail:link{color:#393939;text-decoration:none;cursor:"default"; FONT-SIZE:11px;}
+A.mymail:visited{color:#393939;text-decoration:none; cursor:"default"; FONT-SIZE:11px;}
+A.mymail:hover{color:#CD3B79;text-decoration:none; cursor:"hand"; FONT-SIZE:11px;}
+
+A.forgot:link{color:#CD3B79; text-decoration:none;cursor:default; FONT-SIZE:11px;}
+A.forgot:visited{color:#CD3B79; text-decoration:none; cursor:default; FONT-SIZE:11px;}
+A.forgot:hover{color:#7E5A50; text-decoration:none; cursor:hand; FONT-SIZE:11px;}
+
+A.downlink:link{color:#ffffff; font-size:11px; text-decoration:none; cursor:default;}
+A.downlink:visited{color:#ffffff; font-size:11px; text-decoration:none;cursor:default;}
+A.downlink:hover{color:#000000; font-size:11px; text-decoration:none; cursor:hand;}
+
+A.powered:link{color:#EFE6D7; font-size:10px; text-decoration:none; cursor:"default";}
+A.powered:visited{color:#EFE6D7; font-size:10px; text-decoration:none;cursor:"default";}
+A.powered:hover{color:#FFFF00; font-size:10px; text-decoration:none; cursor:"hand";}
+
+A.button:link{color:#FFFFFF; text-decoration:none; cursor:"default"; FONT-SIZE:12px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif;}
+A.button:visited{color:#FFFFFF; text-decoration:none; cursor:"default"; FONT-SIZE:12px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif;}
+A.button:hover{color:#5E0038; text-decoration:none; cursor:"hand"; FONT-SIZE:12px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+A.pagelink:link{color:#9A005A;text-decoration:none;cursor:"default"; font-family:Verdana, Arial, Helvetica, sans-serif; font}
+A.pagelink:visited{color:#9A005A;text-decoration:none;cursor:"default"; font-family:Verdana, Arial, Helvetica, sans-serif;}
+A.pagelink:hover{color:#CD3B79; text-decoration:none;cursor:"hand"; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+/*====================================================================================================================================*/  
+  
+.borderred
+{
+border-right: #D43723 1px solid;
+
+}
+
+A.service:link{color:#999999;text-decoration:none;cursor:default;FONT-SIZE:11px; font-weight:bold;}
+A.service:visited{color:#999999;text-decoration:none;cursor:default;FONT-SIZE:11px; font-weight:bold;}
+A.service:hover{color:#E71617;text-decoration:none;cursor:hand;FONT-SIZE:11px; font-weight:bold;}
+
+A.corporate:link{color:#003C5E;text-decoration:none;cursor:"default";FONT-SIZE:10px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif}
+A.corporate:visited{color:#003C5E;text-decoration:none;cursor:default;FONT-SIZE:10px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif}
+A.corporate:hover{color:#ffffff;text-decoration:none;cursor:hand;FONT-SIZE:10px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif}
+
+A.collection:link{color:#24518A;text-decoration:none;cursor:default;FONT-SIZE:11px}
+A.collection:visited{color:#24518A;text-decoration:none;cursor:default;FONT-SIZE:11px}
+A.collection:hover{color:#ff0000;text-decoration:none;cursor:hand; FONT-SIZE:11px}
+    
+A.orange:link{color:#ff6600;text-decoration:none;cursor:default;FONT-SIZE:10px;}
+A.orange:visited{color:#ff6600;text-decoration:none;cursor:default;FONT-SIZE:10px;}
+A.orange:hover{color:#999999;text-decoration:none;cursor:hand; FONT-SIZE:10px;}
+
+.main { font: sans-serif,Arial,Helvetica; font-weight:bold; color:#EA8A36; font-size:16px; }
+
+.mainorange { font: Arial,Helvetica,sans-serif; font-weight:bold; color:#EA8A36; font-size:12px; }
+
