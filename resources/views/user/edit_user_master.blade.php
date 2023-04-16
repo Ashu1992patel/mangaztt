@@ -21,9 +21,18 @@
             <div class="form-group">
                 <label class="col-sm-2 control-label" for="role">Role *</label>
                 <div class='col-sm-8'>
-                    {!! Form::select('role_master_id', $role_masters, $user_master->role_master_id, [
+                    {{-- {!! Form::select('role_master_id', $role_masters, $user_master->role_master_id, [
                         'class' => 'form-control requiredDD',
-                    ]) !!}
+                    ]) !!} --}}
+
+                    <select name="role_master_id" class="form-control requiredDD" id="role_master_id">
+                        @foreach ($role_masters as $key => $role)
+                            <option value="{{ $role }}"
+                                @if (old('role_master_id') == $role) {{ 'selected' }} @endif>
+                                {{ $role }}
+                            </option>
+                        @endforeach
+                    </select>
                 </div>
             </div>
             <div class='form-group'>

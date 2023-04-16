@@ -1,9 +1,9 @@
 <script src="{{ url('assets/js/validation.js') }}"></script>
-@if($errors->any())
-    <div role='alert' id='alert' class='alert alert-danger'>{{$errors->first()}}</div>
+@if ($errors->any())
+    <div role='alert' id='alert' class='alert alert-danger'>{{ $errors->first() }}</div>
 @endif
 <form action="" method="post"></form>
-{!! Form::open(['url' => 'user_master', 'class' => 'form-horizontal', 'id'=>'user_master']) !!}
+{!! Form::open(['url' => 'user_master', 'class' => 'form-horizontal', 'id' => 'user_master']) !!}
 <div class="container-fluid">
     <div class="container-fluid">
         <div class="col-sm-6">
@@ -13,23 +13,25 @@
                 <label class="col-sm-4 control-label" for="user_no">User No#</label>
                 <div class='col-sm-8'>
                     <p></p>
-                    <label for="" class="badge">BJINQ-{{$user_no}}</label>
-                    <input type="hidden" class="form-control" name="full_user_no" value="BJINQ-{{$user_no}}"
-                           id="user_no">
-                    <input class="form-control" name="user_no" type="hidden" value="{{$user_no}}">
+                    <label for="" class="badge">BJINQ-{{ $user_no }}</label>
+                    <input type="hidden" class="form-control" name="full_user_no" value="BJINQ-{{ $user_no }}"
+                        id="user_no">
+                    <input class="form-control" name="user_no" type="hidden" value="{{ $user_no }}">
                 </div>
             </div>
 
             <div class='form-group'>
                 <label class="col-sm-4 control-label" for="name">Name</label>
                 <div class='col-sm-8'>
-                    <input type="text" name="name" id="name" class="form-control input-sm required" placeholder="Name">
+                    <input type="text" name="name" id="name" class="form-control input-sm required"
+                        placeholder="Name">
                 </div>
             </div>
             <div class='form-group'>
                 <label class="col-sm-4 control-label" for="contact">Contact *</label>
                 <div class='col-sm-8'>
-                    <input type="text" name="contact" id="contact" class="form-control input-sm required contact" placeholder="Contact">
+                    <input type="text" name="contact" id="contact" class="form-control input-sm required contact"
+                        placeholder="Contact">
                 </div>
             </div>
 
@@ -40,19 +42,27 @@
             <div class="form-group">
                 <label class="col-sm-4 control-label" for="role">Role</label>
                 <div class='col-sm-8'>
-                    {!! Form::select('role_master_id', $role_masters, null,['class' => 'form-control requiredDD']) !!}
+                    {{-- {!! Form::select('role_master_id', $role_masters, null, ['class' => 'form-control requiredDD']) !!} --}}
+
+                    <select name="role_master_id" class="form-control requiredDD" id="role_master_id">
+                        @foreach ($role_masters as $key => $role)
+                            <option value="{{ $role }}">{{ $role }}</option>
+                        @endforeach
+                    </select>
                 </div>
             </div>
             <div class='form-group'>
                 <label class="col-sm-4 control-label" for="username">Username *</label>
                 <div class='col-sm-8'>
-                    <input type="text" name="username" id="username" class="form-control input-sm required" placeholder="Username">
+                    <input type="text" name="username" id="username" class="form-control input-sm required"
+                        placeholder="Username">
                 </div>
             </div>
             <div class='form-group'>
                 <label class="col-sm-4 control-label" for="password">Password *</label>
                 <div class='col-sm-8'>
-                    <input type="password" name="password" id="password" class="form-control input-sm required" placeholder="Password">
+                    <input type="password" name="password" id="password" class="form-control input-sm required"
+                        placeholder="Password">
                 </div>
             </div>
             <div class='form-group'>
