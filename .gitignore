@@ -1,3 +1,8 @@
+# Mangal Mandap Ignore
+public/aadhar/*
+public/uploads/*
+
+
 # Logs
 logs
 *.log
