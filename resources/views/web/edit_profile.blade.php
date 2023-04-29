@@ -444,10 +444,10 @@
                                         </select>
                                         {{--</div>--}}
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6" title="You can only edit religion once for a profile">
                                         @if($user->is_once_religion==0)
                                             <select id="Religion" name="religion"
-                                                    title="You can only edit once in a life" data-toggle="tooltip"
+                                                    title="You can only edit religion once for a profile" data-toggle="tooltip"
                                                     data-placement="top" class="form-control drop_edit ">
                                                 <option value="{{$user->religion}}">{{$user->religion!=''?$user->religion:'Select Religion'}}</option>
                                                 <option value="Hindu">Hindu</option>
@@ -1612,7 +1612,7 @@
                                             </option>
                                             <option {{$user->manglik == 'No' ? 'selected':''}} value="No">Non Manglik
                                             </option>
-                                            <option {{$user->manglik == "Don't Know" ? 'selected' : '' }} value="Don't Know">
+                                            <option {{$user->manglik == "Dont Know" ? 'selected' : '' }} value="Dont Know">
                                                 Don't Know
                                             </option>
                                         </select>
