@@ -1,12 +1,12 @@
 @extends('web.web_master')
 
-@section('title','Mangal Mandap : Profile Picture')
+@section('title', 'Mangal Mandap : Profile Picture')
 @section('head')
 
-    <link href="{{url('css/cropper.min.css')}}" type="text/css" rel="stylesheet"/>
-    <script type="text/javascript" src="{{url('js/cropper.min.js')}}"></script>
+    <link href="{{ url('css/cropper.min.css') }}" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="{{ url('js/cropper.min.js') }}"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
             var result = $('.result'),
                 img_result = $('.img-result'),
                 img_w = $('.img-w'),
@@ -19,11 +19,11 @@
                 cropper = '';
             var roundedCanvas;
 
-            $('#file-input').change(function (e) {
+            $('#file-input').change(function(e) {
                 if (e.target.files.length) {
                     // start file reader
                     var reader = new FileReader();
-                    reader.onload = function (e) {
+                    reader.onload = function(e) {
                         if (e.target.result) {
                             // create new image
                             var img = document.createElement('img');
@@ -45,16 +45,16 @@
                             $('#save_toserver').attr("disabled", "true");
                             save.removeAttr("disabled");
 
-                            $('#btn_RotateLeft').click(function () {
+                            $('#btn_RotateLeft').click(function() {
                                 cropper.rotate(90);
                             });
-                            $('#btn_RotateRight').click(function () {
+                            $('#btn_RotateRight').click(function() {
                                 cropper.rotate(-90);
                             });
-                            $('#btn_RotateReset').click(function () {
+                            $('#btn_RotateReset').click(function() {
                                 cropper.reset();
                             });
-                            $('#btn_Compresed').click(function () {
+                            $('#btn_Compresed').click(function() {
                                 debugger;
                                 /*     cropper.(UMD, compressed);*/
                             });
@@ -63,7 +63,7 @@
                     reader.readAsDataURL(e.target.files[0]);
                 }
             });
-            $('#save').click(function (e) {
+            $('#save').click(function(e) {
                 e.preventDefault();
                 // get result to data uri
                 var imgSrc = cropper.getCroppedCanvas({
@@ -111,69 +111,69 @@
                         @php
                             $image = \App\Images::find($user->id);
                         @endphp
-                        @if(isset($image->pic1))
-                            <img src="{{url('').'/'.$image->pic1}}"/>
+                        @if (isset($image->pic1))
+                            <img src="{{ url('') . '/' . $image->pic1 }}" />
                         @else
-                            @if($user->gender == 'male')
-                                <img src="{{url('images/male.png')}}"/>
+                            @if ($user->gender == 'male')
+                                <img src="{{ url('images/male.png') }}" />
                             @else
-                                <img src="{{url('images/female.png')}}"/>
+                                <img src="{{ url('images/female.png') }}" />
                             @endif
                         @endif
                     </div>
                     <div class="cand_name_box">
-                        <div class="profile_cand_name"> {{$user->name}}</div>
-                        <div class="cand_id">MM{{$user->id}}</div>
+                        <div class="profile_cand_name"> {{ $user->name }}</div>
+                        <div class="cand_id">MM{{ $user->id }}</div>
                     </div>
-                    {{--<div class="profile_status">--}}
-                    {{--<div class="status_text">80% Profile Completed</div>--}}
-                    {{--<div class="status_progress">--}}
-                    {{--<div class="progress">--}}
-                    {{--<div class="progress-bar progress-bar-striped active" role="progressbar"--}}
-                    {{--aria-valuenow="75"--}}
-                    {{--aria-valuemin="0" aria-valuemax="100"--}}
-                    {{--style="width: 75%;/* background-color: #07d; */">--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
+                    {{-- <div class="profile_status"> --}}
+                    {{-- <div class="status_text">80% Profile Completed</div> --}}
+                    {{-- <div class="status_progress"> --}}
+                    {{-- <div class="progress"> --}}
+                    {{-- <div class="progress-bar progress-bar-striped active" role="progressbar" --}}
+                    {{-- aria-valuenow="75" --}}
+                    {{-- aria-valuemin="0" aria-valuemax="100" --}}
+                    {{-- style="width: 75%;/* background-color: #07d; */"> --}}
+                    {{-- </div> --}}
+                    {{-- </div> --}}
+                    {{-- </div> --}}
+                    {{-- </div> --}}
                     <div class="profile_reliable_points">
                         <a href="#" class="reliable_row">
                             PERSONAL INFORMATION
                             <span class="reliable_symbol approved">
-                            <i class="mdi mdi-checkbox-marked"></i>
-                        </span>
+                                <i class="mdi mdi-checkbox-marked"></i>
+                            </span>
                         </a>
                         <a href="#" class="reliable_row">
                             EDUCATION &amp; PROFESSION
                             <span class="reliable_symbol approved">
-                            <i class="mdi mdi-checkbox-marked"></i>
-                        </span>
+                                <i class="mdi mdi-checkbox-marked"></i>
+                            </span>
                         </a>
                         <a href="#" class="reliable_row">
                             FAMILY DEATILS
                             <span class="reliable_symbol approved">
-                            <i class="mdi mdi-checkbox-marked"></i>
-                        </span>
+                                <i class="mdi mdi-checkbox-marked"></i>
+                            </span>
                         </a>
-                        <a href="{{url('profile_photo')}}" class="reliable_row">
+                        <a href="{{ url('profile_photo') }}" class="reliable_row">
                             Profile Photos
                             <span class="reliable_symbol approved">
-                            <i class="mdi mdi-checkbox-marked"></i>
-                        </span>
+                                <i class="mdi mdi-checkbox-marked"></i>
+                            </span>
                         </a>
                         <a href="#" class="reliable_row">
                             Partner Preference
                             <span class="reliable_symbol approved">
-                            <i class="mdi mdi-checkbox-marked"></i>
-                        </span>
+                                <i class="mdi mdi-checkbox-marked"></i>
+                            </span>
                         </a>
                         <a href="#" class="reliable_row">
                             Aadhar Verification
                             <span class="reliable_symbol not_approved">
-                        <i class="mdi mdi-close-box"></i>
-                                {{--<i class="mdi mdi-checkbox-marked"></i>--}}
-                        </span>
+                                <i class="mdi mdi-close-box"></i>
+                                {{-- <i class="mdi mdi-checkbox-marked"></i> --}}
+                            </span>
                         </a>
                     </div>
                 </div>
@@ -185,13 +185,13 @@
                         <div class="photoupload_containner">
                             <div class="col-sm-6">
                                 <div class="view_photo_containner">
-                                    @if(isset($image->pic1))
-                                        <img src="{{url('').'/'.$image->pic1}}"/>
+                                    @if (isset($image->pic1))
+                                        <img src="{{ url('') . '/' . $image->pic1 }}" />
                                     @else
-                                        @if($user->gender == 'male')
-                                            <img src="{{url('images/male.png')}}"/>
+                                        @if ($user->gender == 'male')
+                                            <img src="{{ url('images/male.png') }}" />
                                         @else
-                                            <img src="{{url('images/female.png')}}"/>
+                                            <img src="{{ url('images/female.png') }}" />
                                         @endif
                                     @endif
                                     <div class="set_profile">
@@ -208,35 +208,38 @@
                                         <button type="button" class="btn btn-primary btn-sm res_btn">
                                             <span class="mdi mdi-image"></span></button>
                                         <button onclick="upload_pic();" type="button"
-                                                class="btn btn-primary btn-sm res_btn">Browse Photo
+                                            class="btn btn-primary btn-sm res_btn">Browse Photo
                                         </button>
                                     </div>
                                     <!-- <input type="file" name="profile_pic" id="recend_select_file" class="profile-upload-pic"
-                                            onchange="ChangeSetImage(this, _UserProfile);"/>-->
+                                                    onchange="ChangeSetImage(this, _UserProfile);"/>-->
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="heading_inner_row">
                                     <span class="inner_heading_txt">Uploaded Photos</span>
                                 </div>
-                                @if(isset($image->pic1))
+                                @if (isset($image->pic1))
                                     <div class="view_uploaded_photo">
-                                        <img class="img_width100" src="{{url('').'/'.$image->pic1}}"/>
-                                        <i class="mdi mdi-delete delete_image" id="1" onclick="delete_pic(this)"></i>
+                                        <img class="img_width100" src="{{ url('') . '/' . $image->pic1 }}" />
+                                        <i class="mdi mdi-delete delete_image" id="1"
+                                            onclick="delete_pic(this)"></i>
                                     </div>
                                 @endif
 
-                                @if(isset($image->pic2))
+                                @if (isset($image->pic2))
                                     <div class="view_uploaded_photo">
-                                        <img class="img_width100" src="{{url('').'/'.$image->pic2}}"/>
-                                        <i class="mdi mdi-delete delete_image" id="2" onclick="delete_pic(this)"></i>
+                                        <img class="img_width100" src="{{ url('') . '/' . $image->pic2 }}" />
+                                        <i class="mdi mdi-delete delete_image" id="2"
+                                            onclick="delete_pic(this)"></i>
                                     </div>
                                 @endif
 
-                                @if(isset($image->pic3))
+                                @if (isset($image->pic3))
                                     <div class="view_uploaded_photo">
-                                        <img class="img_width100" src="{{url('').'/'.$image->pic3}}"/>
-                                        <i class="mdi mdi-delete delete_image" id="3" onclick="delete_pic(this)"></i>
+                                        <img class="img_width100" src="{{ url('') . '/' . $image->pic3 }}" />
+                                        <i class="mdi mdi-delete delete_image" id="3"
+                                            onclick="delete_pic(this)"></i>
                                     </div>
                                 @endif
 
@@ -253,17 +256,17 @@
         function upload_pic() {
             $('#myModal').addClass('in');
             $('#myModal').show();
-//            $('#modal_size').removeClass('modal-dialog modal-md');
-//            $('#modal_size').addClass('modal-dialog modal-lg');
+            //            $('#modal_size').removeClass('modal-dialog modal-md');
+            //            $('#modal_size').addClass('modal-dialog modal-lg');
             $('#modal_title').html('Upload Pictures');
-            $('#modal_body').html('<img height="50px" class="center-block" src="{{url('images/loading.gif')}}"/>');
+            $('#modal_body').html('<img height="50px" class="center-block" src="{{ url('images/loading.gif') }}"/>');
             $.ajax({
                 type: "get",
-                url: "{{url('getUpload')}}",
-                success: function (data) {
+                url: "{{ url('getUpload') }}",
+                success: function(data) {
                     $('#modal_body').html(data);
                 },
-                error: function (xhr, status, error) {
+                error: function(xhr, status, error) {
                     $('#modal_body').html(xhr.responseText);
                 }
             });
@@ -272,14 +275,12 @@
         function delete_pic(dis) {
             var id = $(dis).attr('id');
             $('#myModal').modal('show');
-            $('#modal_body').html('<img height="50px" class="center-block" src="{{url('images/loading.gif')}}"/>');
+            $('#modal_body').html('<img height="50px" class="center-block" src="{{ url('images/loading.gif') }}"/>');
             $('#modal_title').html('Confirm Deletion');
             $('#modal_body').html('<h5>Are you sure want to delete this picture<h5/>');
-            $('#modalBtn').html('<a class="btn btn-sm btn-danger" href="{{url('picture').'/'}}' + id +
+            $('#modalBtn').html('<a class="btn btn-sm btn-danger" href="{{ url('picture') . '/' }}' + id +
                 '/delete"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirm</a>'
             );
         }
-
-
     </script>
 @stop

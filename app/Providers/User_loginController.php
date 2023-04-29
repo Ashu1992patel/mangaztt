@@ -634,8 +634,7 @@ class User_loginController extends Controller
     }
 
 
-    public
-    function upload_pic(Request $request)
+    public function upload_pic(Request $request)
     {
         if (isset($_SESSION['user_master'])) {
             $user = Profiles::find($_SESSION['user_master']->id);
