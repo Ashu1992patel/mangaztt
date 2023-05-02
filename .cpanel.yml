@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/a1630xeb/testing.iqraeducations.com/
+    - export DEPLOYPATH=/home/a1630xeb/public_html/testing.iqraeducations.com/
     - /bin/cp -R * $DEPLOYPATH
